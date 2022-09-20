@@ -1,0 +1,57 @@
+{
+	"ts-node": {
+		"transpileOnly": true
+	},
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"removeComments": true,
+		"esModuleInterop": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"declaration": false,
+		"outDir": "dist",
+		"types": [
+			"node",
+			"@types/jest"
+		],
+		"forceConsistentCasingInFileNames": true,
+
+		"composite": true,
+		"preserveSymlinks": true,
+		"strict": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"lib": [
+			"ES2021",
+			"ESNext"
+		],
+		"typeRoots": [
+			"./node_modules/@types,"
+		],
+		"allowJs": true,
+		"noEmit": false,
+		"declarationMap": true,
+		"stripInternal": true,
+		"sourceMap": true,
+		"inlineSources": true,
+		"downlevelIteration": true,
+		"pretty": true,
+		"noImplicitAny": false
+	},
+	"include": [
+		"src/**/*",
+	],
+	"exclude": [
+		".idea",
+		".vscode",
+		"dist",
+		"./node_modules"
+	]
+}
