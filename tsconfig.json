@@ -13,12 +13,9 @@
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"allowSyntheticDefaultImports": true,
-		"declaration": false,
+		"declaration": true,
 		"outDir": "dist",
-		"types": [
-			"node",
-			"@types/jest"
-		],
+		"types": ["node"],
 		"forceConsistentCasingInFileNames": true,
 
 		"composite": true,
